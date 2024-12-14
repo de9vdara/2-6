@@ -1,0 +1,142 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#container {
+    width: 100%;
+    max-width: 1480px;
+    border: 50px solid #E4EBFF;
+    margin: 60px auto 0;
+    display: block;
+}
+
+#header {
+    margin-bottom: 90px;
+    text-align: center;
+}
+
+#features {
+    color: #6941C6;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+h1 {
+    padding: 12px;
+    color: #181D27;
+    font-size: 40px;
+    font-weight: 600;
+    padding-bottom: 32px;
+}
+
+#sub-text, #support-description, #reports-description {
+    color: #535862;
+    font-size: 18px;
+    padding-bottom: 32px;
+}
+
+#content {
+    width: 100%;
+    margin-bottom: 100px;
+}
+
+#section-one, #section-two, #section-three {
+    margin-bottom: 100px;
+    display: inline-block;
+    width: 100%;
+}
+
+#inbox-container {
+    width: fit-content;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 100px;
+    margin-left: 30px;
+}
+
+#inbox-icon, #support-icon, #reports-icon {
+    display: block;
+    width: 44px;
+    height: 44px;
+    margin-bottom: 24px;
+}
+
+#inbox-text, #support-text, #reports-text {
+    width: 100%;
+    max-width: 490px;
+    margin-bottom: 32px;
+}
+
+#inbox-title, #support-title, #reports-title {
+    color: #181D27;
+    font-size: 30px;
+    font-weight: 600;
+    padding-bottom: 15px;
+}
+
+#inbox-description {
+    color: #535862;
+    font-size: 18px;
+}
+
+#inbox-tasks, #support-tasks {
+    display: inline-block;
+    width: 100%;
+    max-width: 480px;
+    padding-left: 16px;
+}
+
+.tick-icon {
+    width: 28px;
+    height: 28px;
+    display: inline-block;
+    margin-right: 12px;
+    vertical-align: middle;
+}
+
+.task p {
+    display: inline-block;
+    vertical-align: middle;
+    color: #535862;
+    font-size: 18px;
+}
+
+.task {
+    margin-bottom: 20px;
+    display: block;
+}
+
+#image-container {
+    vertical-align: top;
+    text-align: left;
+    display: inline-block;
+    width: fit-content;
+    margin-right: 60px;
+}
+
+#diagram-one, #diagram-two {
+    width: 500px;
+    height: 400px;
+}
+
+#support {
+    vertical-align: top;
+    display: inline-block;
+    margin-top: 100px;
+    width: 100%;
+    max-width: 520px;
+}
+
+#support-text {
+    margin-top: 32px;
+}
+
+#reports {
+    vertical-align: top;
+    display: inline-block;
+    padding-left: 32px;
+    width: 100%;
+    max-width: 520px;
+}
