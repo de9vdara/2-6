@@ -4,20 +4,23 @@
     box-sizing: border-box;
 }
 
-#container {
+#mainContainer {
     width: 100%;
     max-width: 1480px;
     border: 50px solid #E4EBFF;
-    margin: 60px auto 0;
+    margin: 0 auto;
     display: block;
+    margin-top: 60px;
+    margin-bottom: 200px;
 }
 
-#header {
+#headerSection {
+    margin-top: 90px;
     margin-bottom: 90px;
     text-align: center;
 }
 
-#features {
+#featureTitle {
     color: #6941C6;
     font-size: 16px;
     font-weight: 600;
@@ -31,24 +34,24 @@ h1 {
     padding-bottom: 32px;
 }
 
-#sub-text, #support-description, #reports-description {
+#featureDescription {
     color: #535862;
     font-size: 18px;
     padding-bottom: 32px;
 }
 
-#content {
+#contentSection {
     width: 100%;
     margin-bottom: 100px;
 }
 
-#section-one, #section-two, #section-three {
+#teamInboxesSection {
     margin-bottom: 100px;
     display: inline-block;
     width: 100%;
 }
 
-#inbox-container {
+#inboxesContainer {
     width: fit-content;
     display: inline-block;
     vertical-align: top;
@@ -56,39 +59,41 @@ h1 {
     margin-left: 30px;
 }
 
-#inbox-icon, #support-icon, #reports-icon {
+#inboxIcon, #answersIcon, #reportsIcon {
     display: block;
     width: 44px;
     height: 44px;
     margin-bottom: 24px;
 }
 
-#inbox-text, #support-text, #reports-text {
+#inboxDetails {
     width: 100%;
     max-width: 490px;
     margin-bottom: 32px;
 }
 
-#inbox-title, #support-title, #reports-title {
-    color: #181D27;
+#inboxTitle {
+    column-rule-color: #181D27;
     font-size: 30px;
     font-weight: 600;
     padding-bottom: 15px;
 }
 
-#inbox-description {
+#inboxText {
     color: #535862;
     font-size: 18px;
 }
 
-#inbox-tasks, #support-tasks {
+#inboxFeatures, #answersFeatures, #reportsFeatures {
     display: inline-block;
     width: 100%;
     max-width: 480px;
     padding-left: 16px;
 }
 
-.tick-icon {
+#checkIconAutomation, #checkIconHuman, #checkIconLeads, 
+#checkIconChat, #checkIconArticles, #checkIconAnswers, 
+#checkIconFilter, #checkIconAutomationReports, #checkIconIntegration {
     width: 28px;
     height: 28px;
     display: inline-block;
@@ -96,32 +101,23 @@ h1 {
     vertical-align: middle;
 }
 
-.task p {
+#automationText, #humanSupportText, #closeLeadsText, 
+#liveChatText, #helpArticlesText, #findAnswersText, 
+#dataFilterText, #automationReportsText, #toolIntegrationText {
     display: inline-block;
     vertical-align: middle;
     color: #535862;
     font-size: 18px;
 }
 
-.task {
+#automationFeature, #humanSupportFeature, #closeLeadsFeature, 
+#liveChatFeature, #helpArticlesFeature, #findAnswersFeature, 
+#dataFilterFeature, #automationFeatureReports, #toolIntegrationFeature {
     margin-bottom: 20px;
     display: block;
 }
 
-#image-container {
-    vertical-align: top;
-    text-align: left;
-    display: inline-block;
-    width: fit-content;
-    margin-right: 60px;
-}
-
-#diagram-one, #diagram-two {
-    width: 500px;
-    height: 400px;
-}
-
-#support {
+#answersDetails {
     vertical-align: top;
     display: inline-block;
     margin-top: 100px;
@@ -129,14 +125,46 @@ h1 {
     max-width: 520px;
 }
 
-#support-text {
+#answersContent {
     margin-top: 32px;
 }
 
-#reports {
-    vertical-align: top;
+#answersTitle, #reportsTitle {
+    padding-bottom: 16px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#answersDescription, #reportsDescription {
+    color: #535862;
+    font-size: 18px;
+    padding-bottom: 32px;
+}
+
+#instantAnswersSection {
+    margin-bottom: 100px;
+}
+
+#reportsDetails {
+    vertical-align: middle;
     display: inline-block;
     padding-left: 32px;
     width: 100%;
     max-width: 520px;
+}
+/* #reportsImageContainer{
+    vertical-align: middle;
+} */
+
+#inboxImageContainer, #reportsImageContainer {
+    text-align: right;
+    display: inline-block;
+    width: 840px;
+    vertical-align: middle;
+}
+
+#answersImageContainer {
+    text-align: left;
+    display: inline-block;
+    width: 800px;
 }
